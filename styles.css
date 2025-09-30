@@ -1,0 +1,167 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light gray background */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header with logo and navigation links */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #BF2121; /* Dark red color */
+  color: white;
+  padding: 15px 30px;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header .nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Welcome section */
+.welcome-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.welcome-section h2 {
+  font-size: 2rem;
+}
+
+.welcome-section p {
+  font-size: 1.2rem;
+}
+
+.welcome-section .see-updates {
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: #E74C3C; /* Lighter red color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Highlights section */
+.highlights {
+  margin-top: 50px;
+}
+
+.highlights h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.highlight-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight-box {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-box h3 {
+  font-size: 1.2rem;
+}
+
+.highlight-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.highlight-box ul li {
+  margin-bottom: 10px;
+}
+
+.highlight-box a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #BF2121; /* Dark red color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Stay connected section */
+.stay-connected {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.stay-connected h3 {
+  font-size: 1.2rem;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #BF2121; /* Dark red color */
+}
+
+/* Starter template section */
+.starter-template {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.starter-template h3 {
+  font-size: 1.2rem;
+}
+
+.starter-template button {
+  padding: 10px 15px;
+  margin: 10px;
+  background-color: #E74C3C; /* Lighter red color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+footer p {
+  font-size: 1.1rem;
+  color: #D14743; /* Red color */
+  font-weight: bold;
+}
+
+footer p span {
+  font-style: italic;
+}

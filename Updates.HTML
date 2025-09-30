@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Connect - Updates & Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #BF2121;
+            color: white;
+            padding: 20px;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-right: auto;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .updates-blog {
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .updates-blog h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .updates-blog p {
+            font-size: 1rem;
+        }
+
+        .updates-blog .post {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);  
+            gap: 20px;
+            justify-items: stretch;
+        }
+
+        .post .item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .post .item h4 {
+            font-size: 1.3rem;
+            color: #BF2121;
+        }
+
+        .post .item p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+
+        .post .item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .post .item a {
+            text-decoration: none;
+            background-color: #BF2121;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .post .item a:hover {
+            background-color: #E74C3C;
+        }
+
+        footer {
+            background-color: #BF2121;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>College Connect</h1>
+    <h2>Updates & Blog</h2>
+</header>
+
+<div class="updates-blog">
+    <h3>Find announcements, events, and campus highlights.</h3>
+    <p>Search announcements:</p>
+    <input type="text" placeholder="Search announcements">
+    <button>Search</button>
+
+    <h3>4 Posts found.</h3>
+
+    <div class="post">
+        <div class="item">
+            <img src="pngtree-starry-sky-at-night-illustration-stars-starfield-photo-image_3514547.jpg" alt="Event Image" style="width:100%; height:auto; margin-bottom: 10px;">
+            <h4>Orientation Week Kickoff</h4>
+            <p>Sep 01, 2025 — Events</p>
+            <p>Meet faculty, join tours, and grab your starter kit.</p>
+            <!-- Link to go back to Home -->
+            <a href="index.html">Read more</a>
+        </div>
+        <div class="item">
+            <h4>At Lab Open Night</h4>
+            <p>Sep 10, 2025 — Clubs</p>
+            <p>Demos on computer vision and robotics; beginners welcome!</p>
+            <a href="index.html">Read more</a>
+        </div>
+        <div class="item">
+            <h4>Extended Library Hours During Midterms</h4>
+            <p>Oct 03, 2025 — Facilities</p>
+            <p>Study spaces open until midnight with quiet and group zones.</p>
+            <a href="index.html">Read more</a>
+        </div>
+        <div class="item">
+            <h4>College Website Refresh</h4>
+            <p>Oct 20, 2025 — News</p>
+            <p>We’re modernizing navigation, accessibility, and mobile UX.</p>
+            <a href="index.html">Read more</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <a href="index.html" style="background-color: #BF2121; color: white; padding: 10px; border-radius: 5px; text-decoration: none;">Go to Home</a>
+    <p>© 2025 College Connect. Built for the Associate Diploma in Software Development.</p>
+</footer>
+
+</body>
+</html>
